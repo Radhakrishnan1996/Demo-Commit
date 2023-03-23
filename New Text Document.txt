@@ -1,0 +1,14 @@
+ <form>
+                        <input type="text" placeholder="Name*">
+                        <input type="text" placeholder="Email*"><br>
+                        <input type="text" placeholder="Phone Number*">
+                        
+                         <select>
+                            <option></option>
+                        </select>
+                    <br>
+                        <input type="file" placeholder="Upload files(if Any)"> <br>
+                        <textarea placeholder="Lets Discuss*"></textarea> <br>
+                        <input type="submit" value="Send Inquiry">
+
+                    </form>

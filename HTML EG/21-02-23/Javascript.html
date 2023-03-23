@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html> 
+
+<head> 
+<title> Javascript </title>
+
+<style> 
+body{
+background-color:black;
+color:white;
+}
+</style>
+
+</head>
+
+<body>
+<h1>My First Javascript</h1>
+
+<button type="button" onclick="document.getElementById('demo').innerHTML= Date()"> Click me to display Date and Time </button>
+
+<p id="demo"> </p>
+<br>
+<hr>
+
+
+<h1>Use Javascript to change text </h1>
+<p>This example writes "Hello JavaScript!" into an HTML element with id="demo": </p>
+
+<p id="hello"> </p>
+<script>
+document.getElementById("hello").innerHTML = "Hello JavaScript!";
+</script> 
+<br>
+<hr>
+
+
+<h1>Javascript Content Change</h1>
+
+<p> Javascript can change the Content of the HTML Element </p>
+
+<button type="button" onclick="myfunction()"> Click me</button>
+
+<p id="content" >Now Working in Twilight </p>
+
+<script>
+function myfunction(){
+document.getElementById("content").innerHTML="Hello Javascript";
+}
+
+</script>
+
+<br>
+<hr>
+
+
+<h1> Javascript Style Change</h1>
+<p id="change" > Javascript can change the style of the Element </p>
+
+<script>
+function myfunction(){
+document.getElementById("change").style.fontsize="25px";
+document.getElementById("change").style.color="red";
+document.getElementById("change").style.backgroundcolor="yellow";
+
+}
+</script>
+
+
+<button type="button" onclick="myfunction()">click me! </button>
+
+<br>
+<hr>
+
+<h1>My First JavaScript</h1>
+
+<p>JavaScript can change the content of an HTML element:</p>
+
+<button type="button" onclick="myFunction()">Click Me!</button>
+
+<p id="demo">This is a demonstration.</p>
+
+<script>
+function myFunction() { 
+  document.getElementById("demo").innerHTML = "Hello JavaScript!";
+}
+</script>
+</body>
+
+
+</html>

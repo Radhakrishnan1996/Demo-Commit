@@ -1,0 +1,14 @@
+What is CSS, and what are its advantages?
+Answer: CSS stands for Cascading Style Sheets, which is a language used to style and layout web pages. Its advantages include separating the presentation of a web page from its content, allowing for easier maintenance and updates; enabling greater consistency across a website's design; and making it easier to control the appearance of a website across multiple pages.
+
+What is the difference between class and ID in CSS, and when would you use each one?
+Answer: Classes are used to style multiple elements on a page, while IDs are used to style a specific element. You would use a class when you want to apply the same styling to multiple elements, and an ID when you want to style a unique element that appears only once on a page.
+
+How do you center an element horizontally and vertically in CSS?
+Answer: To center an element horizontally, you can use the margin property with a value of auto. To center an element vertically, you can use the display property with a value of flex and the align-items and justify-content properties with a value of center.
+
+What are the different types of selectors in CSS, and how do you use them?
+Answer: The different types of selectors in CSS include element selectors, class selectors, ID selectors, attribute selectors, and pseudo-classes. You use them by selecting the type of element, class, ID, attribute, or pseudo-class that you want to apply a style to, followed by the style properties you want to apply.
+
+What is the box model in CSS, and how does it work?
+Answer: The box model in CSS is a way of describing how elements are rendered on a web page. It consists of four parts: the content area, padding area, border area, and margin

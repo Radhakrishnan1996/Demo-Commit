@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Form</title>
+
+    <style>
+        header{
+            background-color: darkgrey;
+            text-align: center;
+            font-size: 20px;
+            padding: 10px;
+            margin:5px;
+            border: 2px solid black;
+        }
+
+        footer{
+            background-color: darkgray;
+            text-align: center;
+            padding:0px;
+            border: 2px solid black;
+        }
+        section{
+            text-align: center;
+            background-color: lightblue;
+            
+        }
+       
+        #submit{
+            background-color: tomato;
+            color: white;
+            border: none;
+            padding: 5px;
+            width: 100px;
+        }
+
+      ul  {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+    #tm{
+        width:20%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: rgb(155, 152, 152);
+    } 
+                
+    </style>
+
+</head>
+
+<header>
+    <span id="tm">
+        <label for="tym">Time :</label>
+        <input type="time" id="tim"><br>
+        <label for="week">Week:</label>
+        <input type="week" id="week" name="week">
+    </span>
+    <h1>Simplify data collection with online forms</h1>
+    
+    <nav>
+        <ul>
+            <li><a href="#5">Home</a></li>
+            <li><a href="#8">Menu</a></li>
+            <li><a href="#9">Address</a></li>
+        </ul>
+    </nav>
+</header>
+        <section>
+            <h1>Get started with free online forms.</h1>
+            <p>Create forms, share them online, receive instant alerts, and efficiently manage your data with our integrated apps. Focus on your business while Zoho Forms handles the data collection process for you!</p><br>
+        </section>
+
+        <section>
+            <form action="https://www.w3schools.com/html/html_form_input_types.asp">
+
+            <fieldset>
+                <legend><i>Personal Information Datas</i></legend>
+            <label for="name"><b>Firstname</b></label><br>
+            <input type="text" id="fname"  placeholder="Firstname" required><br><br>
+
+            <label id="lname"><b>Last Name</b></label><br>
+            <input type="text" id="lname"  placeholder="Lastname" required><br><br>
+
+            <label for="pword"><b>Password</b></label><br>
+            <input type="password" id="pword"> <br><br>
+        </fieldset>
+<br><br>
+        <fieldset>
+            <legend><i>Interest to do..!</i></legend>
+            <h1>Gender</h1>
+            <input type="radio" name="gender">
+            <label>Male</label><br>
+
+            <input type="radio" name="gender">
+            <label>FeMale</label>
+
+            <br>
+                <h1>Hobbies</h1>
+            <input type="checkbox" id="hob1" name="cric"><label for="hob1">Cricket</label>
+            <input type="checkbox" id="hob2" name="gam"><label for="hob2">Mobile Gaming</label>
+            <input type="checkbox" id="hob3" name="mus"><label for="hob3">Music</label><br><br>
+
+
+            <label>Datalist :</labela>
+            <input list="browsers" name="browser">
+               <datalist id="browsers">
+                <option value="Internet browser">
+                <option value="Firefox">
+                <option value="chrome">
+                </option value="opera">
+
+               </datalist><br><br>
+
+              <label for="cars">Which is your Dream Car</label> 
+              <select id="cars">
+                    <option>Swift</option>
+                    <option>Nissan</option>
+                    <option>volvo</option>
+               </select>
+            </fieldset>
+<br><br>
+
+<fieldset>
+    <legend><i>U can Text some comments in TextArea</i></legend>
+<textarea cols="20" rows="5" name="message" placeholder="comments here..!"></textarea><br><br>
+<label for="col"> Choose colors:</label>
+<input type="color" id="col" name="colorsselection"><br><br>
+<label for="dob">Birthday:</label>
+<input type="date" id="dob" name="birthdaydate"><br><br>
+<label for="image"> Image :</label>
+<input type="image" src="https://www.w3schools.com/html/img_submit.gif" alt="arrow" width="50" height="50"><br><br>
+<label for="filee">Choose tyour File :</label>
+<input type="file" id="filee" name="yourfile">
+</fieldset>
+<br><br>
+            <fieldset>
+                <legend><i>submit link in below..</i></legend>
+            <input type="submit" id="submit"><br><br>
+            <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+            <br><br><br>
+            <input type="button" value="Button"> 
+
+        </fieldset>
+<br>
+
+        
+        </form>
+
+        </section>
+<br>
+    <footer>
+        <p><b>Copyright @ W3Schools</b></p>
+    </footer>
+
+
+</html>

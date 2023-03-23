@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>20-02-2023 EXERCISE</title>
+    <style>
+        body{
+            background-color: blanchedalmond;
+        }
+        h1{
+            color: brown;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 150%;
+            text-decoration: underline;
+        }
+       
+        a:link{
+            background-color: brown;
+            color: azure;
+            text-align: center;
+            padding: 5px;
+            display: inline-block;
+            text-decoration: none;
+
+        }
+        a:hover,a:active{
+            background-color: lightslategrey;
+        }
+    
+        
+    </style>
+</head>
+
+<body>
+    <center>
+    <h1>HTML Links</h1>
+    <a href="https://in.pinterest.com/" target="_blank"> Target Blank Link</a><br>
+    <hr>
+    
+    <h1>Image as link</h1>
+    <p>To use an image as a link, just put the img tag inside the a tag</p>
+     <a> <img src="https://i.pinimg.com/236x/79/36/dc/7936dc24322c2d0c2106d425a4710010.jpg" alt="Piller image" title="Pintrest" width="300" height="300"></a> 
+  <hr>
+    <h1>Link to an Email Address</h1>
+    <p>Use mailto: inside the href attribute to create a link that opens the user's email program (to let them send a new email):</p>
+    <a href="mailto:someone@gmail.com">send mail</a>
+    <hr>
+    <h1>Button as a link</h1>
+    <p>To use an HTML button as a link, you have to add some JavaScript code.
+
+        JavaScript allows you to specify what happens at certain events, such as a click of a button:</p>
+    <button onclick="document.location='https://in.pinterest.com/'"> HTML Button</button>
+    <hr>
+    <h1>Link Titles</h1>
+    <p>The title attribute specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element.</p>
+       <a href="https://in.pinterest.com/" title="Pintrest title" target="_blank">Link Titles</a> 
+       <hr>
+
+       <h1>Chapter summary</h1>
+       <p>Use the a element to define a link<br>
+        Use the href attribute to define the link address <br>
+        Use the target attribute to define where to open the linked document <br>
+        Use the img  element (inside a) to use an image as a link <br>
+        Use the mailto: scheme inside the href attribute to create a link that opens the user's email program<br>
+        </p>
+        <hr>
+        <br>
+        <br>
+        <br>
+        <h1>HTML Link Color</h1>
+      <p>An unvisited link is underlined and blue<br>
+        A visited link is underlined and purple<br>
+        An active link is underlined and red</p>
+
+<!-- HTML LINK COLOR FOR MOUSE OVER ACTION
+     
+        a:visited{
+            color:darkgreen;
+            background-color: darkseagreen;
+            text-decoration: none;
+        }
+        a:hover{
+            color: rgb(202, 218, 63);
+            background-color: transparent;
+            text-decoration:none;
+        }
+-->
+
+
+        <h1>Link Button</h1>
+        <button><a href="https://in.pinterest.com/">This is Link</a></button>
+        <hr>
+
+        <h1>HTML Links -Creat Bookmarks</h1>
+            <p ><a href="#c2">Jump to chapter 2</a></p>
+            <p ><a href="#c3">Jump to chapter3</a></p>
+            <br>
+        <h3>Chapter 1</h3>
+        <p>This is chapter 1</p>
+
+        <h3 id="c2">Chapter 2</h3>
+        <p>This is chapter 2</p>
+        
+        <h3 id="c3">Chapter 3</h3>
+        <p>This is chapter 3</p>
+        
+        <h3>Chapter 4</h3>
+        <p>This is chapter 4</p>
+        
+        <h3>Chapter 5</h3>
+        <p>This is chapter 5</p>
+        
+
+        </center>
+</body>
+
+</html>
